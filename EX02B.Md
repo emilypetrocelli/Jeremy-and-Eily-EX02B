@@ -4,10 +4,10 @@
 Functional Dependencies
 
 -->PetName-(PetID, PetBreed, PetDOB, OwnerLastName, OwnerFirstName,OwnerPhone, OwnerEmail)
--->OwnerEMail-(OwnerFirstName, OwnerLastName, OwnerPhone)
+-->OwnerEmail-(OwnerFirstName, OwnerLastName, OwnerPhone)
 -->OwnerPhone-(OwnerLastName,OwnerFirstName,OwnerPhone)
 
-Canidate Keys- PetName
+Candidate Keys- PetName
 
 Is every determinant a candidate key?
 No, OwnerEmail and OwnerPhone are NOT candidate keys.
