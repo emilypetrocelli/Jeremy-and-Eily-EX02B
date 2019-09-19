@@ -4,7 +4,7 @@
 Functional Dependencies
 
 -->PetName-(PetID, PetBreed, PetDOB, OwnerLastName, OwnerFirstName,OwnerPhone, OwnerEmail)
--->OwnerEMail-(OwnerFIrstName, OwnerLastName, OwnerPhone)
+-->OwnerEMail-(OwnerFirstName, OwnerLastName, OwnerPhone)
 -->OwnerPhone-(OwnerLastName,OwnerFirstName,OwnerPhone)
 
 Canidate Keys- PetName
