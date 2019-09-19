@@ -1,2 +1,2 @@
-# Jeremy-and-Eily-EX02B
+# Jeremy-and-Emily-EX02B
 EX02B repository
